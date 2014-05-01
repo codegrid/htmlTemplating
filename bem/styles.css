@@ -35,10 +35,7 @@
     .graph__img {
       border:2px solid #000;
     }
-    .graph__img_type_important {
-      border-color:red;
-    }
-  .graph__ft {
+  .graph__foot {
     font-size:.8em;
   }
 
