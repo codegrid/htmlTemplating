@@ -1,0 +1,53 @@
+body {
+  margin:0;
+  padding:20px;
+  font-size:20px;
+  font-weight:bold;
+}
+h1 {
+  padding:0;
+  margin:0 0 20px;
+  font-size:30px;
+}
+#all {
+  margin:0 auto;
+}
+#header {
+  padding:20px;
+  border:2px solid #000;
+  margin:0 0 20px;
+}
+#body {
+  overflow:hidden;
+  margin:0 0 20px;
+}
+  #sidebar {
+    float:right;
+    padding:20px;
+    border:2px solid #000;
+    margin:0 0 0 20px;
+    width:30%;
+    min-height:300px;
+  }
+  #main {
+    padding:20px;
+    border:2px solid #000;
+    overflow:hidden;
+    *zoom:1; /* ie */
+    min-height:300px;
+  }
+#footer {
+  padding:20px;
+  border:2px solid #000;
+}
+
+.l-flipped #sidebar {
+  float:left;
+  margin:0 20px 0 0;
+}
+
+
+.l-fixed #all {
+  max-width:700px;
+}
+
